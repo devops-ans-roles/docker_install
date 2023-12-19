@@ -31,6 +31,8 @@ Here's an example playbook `docker_install.yml` using this role:
   become: true
   roles:
     - docker_install`
+```
+
 
 To use this playbook, ensure your Ansible inventory file is set up correctly with the hosts you want to target.
 
